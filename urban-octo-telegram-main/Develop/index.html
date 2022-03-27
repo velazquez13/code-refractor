@@ -32,12 +32,12 @@
         </div>
       </div>
     </header>
-
+    <!--identified-->
     <div class="hero"></div>
     <div class="content">
       <!--Added article element-->
       <article>
-        <div class="search-engine-optimization">
+        <div id="search-engine-optimization" class="content-styling">
           <img
             src="./assets/images/search-engine-optimization.jpg"
             alt="search engine optimization image"
@@ -54,11 +54,8 @@
       </article>
       <!--Added article element-->
       <article>
-        <div
-          id="online-reputation-management"
-          class="online-reputation-management"
-        >
-          <!--added alt attribute, deleted-->
+        <div id="online-reputation-management" class="content-styling">
+          <!--added alt attribute-->
           <img
             src="./assets/images/online-reputation-management.jpg"
             alt="online-reputation-managment"
@@ -74,9 +71,9 @@
           </p>
         </div>
       </article>
-      <!--Added areticle element-->
+      <!--Added article element-->
       <article>
-        <div id="social-media-marketing" class="social-media-marketing">
+        <div id="social-media-marketing" class="content-styling">
           <img
             src="./assets/images/social-media-marketing.jpg"
             alt="social media marketing"
@@ -93,28 +90,43 @@
       </article>
     </div>
     <div class="benefits">
-      <div class="benefit-lead">
+      <!--changed classes for lead generation, brand awareness and cost management to consolidate css styling-->
+      <div class="h3">
         <h3>Lead Generation</h3>
-        <!--added alt attribute-->
-        <img src="./assets/images/lead-generation.png" alt="lead generation" />
+        <!--added alt attributes to images, added benefit-img class to images to consolidate css styling-->
+        <img
+          src="./assets/images/lead-generation.png"
+          alt="lead generation"
+          class="benefit-img"
+        />
         <p>
           Inbound strategies for lead generation require less work for your
           business, bringing customers directly to your website.
         </p>
       </div>
-      <div class="benefit-brand">
+      <br />
+      <div class="h3">
         <h3>Brand Awareness</h3>
         <!--added alt attribute-->
-        <img src="./assets/images/brand-awareness.png" alt="benefit brand" />
+        <img
+          src="./assets/images/brand-awareness.png"
+          alt="benefit brand"
+          class="benefit-img"
+        />
         <p>
           Users find your business through paid and organic searches, increasing
           the search ranking and visibility for your business.
         </p>
       </div>
-      <div class="benefit-cost">
+      <br />
+      <div class="h3">
         <h3>Cost Management</h3>
         <!--added alt attribute, deleted excess </img> tag-->
-        <img src="./assets/images/cost-management.png" alt="Cost Management" />
+        <img
+          src="./assets/images/cost-management.png"
+          alt="Cost Management"
+          class="benefit-img"
+        />
         <p>
           As the search ranking for your business increases, your advertising
           costs decrease, and you no longer need to advertise your page.
